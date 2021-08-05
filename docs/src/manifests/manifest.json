@@ -36,7 +36,7 @@
           "editUrl": "/docs/reference.overview.md"
         },
         {
-          "title": "Chart",
+          "title": "Chart component",
           "path": "/docs/reference/chart",
           "editUrl": "/docs/reference.chart.md"
         }
