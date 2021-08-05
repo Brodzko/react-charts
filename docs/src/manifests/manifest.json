@@ -27,6 +27,22 @@
       ]
     },
     {
+      "title": "API Reference",
+      "open": true,
+      "routes": [
+        {
+          "title": "Overview",
+          "path": "/docs/reference/overview",
+          "editUrl": "/docs/reference.overview.md"
+        },
+        {
+          "title": "Chart",
+          "path": "/docs/reference/chart",
+          "editUrl": "/docs/reference.chart.md"
+        }
+      ]
+    },
+    {
       "title": "Examples",
       "open": true,
       "routes": [
