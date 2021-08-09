@@ -39,6 +39,16 @@
           "title": "Chart component",
           "path": "/docs/reference/chart",
           "editUrl": "/docs/reference.chart.md"
+        },
+        {
+          "title": "Axes",
+          "path": "/docs/reference/axes",
+          "editUrl": "/docs/reference/axes.md"
+        },
+        {
+          "title": "Helpers",
+          "path": "/docs/reference/helpers",
+          "editUrl": "/docs/reference/helpers.md"
         }
       ]
     },
