@@ -27,14 +27,14 @@ function App() {
 
 **`ChartOptions<TDatum>`**:
 
-- `data: UserSerie<TDatum>[]`
+- `data:` [`UserSerie<TDatum>[]`](./helpers#userserietdatum)
   - **Required**
   - an array of data series to be visualized
   - at least one series is required
-- `primaryAxis: AxisOptions<TDatum>`
+- `primaryAxis:` [`AxisOptions<TDatum>`](./axes#axisoptionstdatum)
   - **Required**
   - configuration options for the primary axis
-- `secondaryAxes: AxisOptions<TDatum>[]`
+- `secondaryAxes:` [`AxisOptions<TDatum>[]`](./axes#axisoptionstdatum)
   - **Required**
   - an array of configuration options for all the secondary axes
 - `padding?: number | { left?: number, right?: number, top?: number, bottom?: number }`
@@ -49,10 +49,9 @@ function App() {
   - `TODO`
   - Optional
   - a function that computes CSS properties applied to a datum based on whether or not it is focused
-- `interactionMode: InteractionMode`
+- `interactionMode:` [`InteractionMode`](helpers#interactionmode)
   - `TODO`
   - Optional
-  - can be `'closest'` or `'primary'`
   - used in resolving `TooltipOptions`
 - `showVoronoi: boolean`
   - Optional

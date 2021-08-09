@@ -3,6 +3,10 @@ id: axes
 title: Axes
 ---
 
+## Quick overview
+
+Below are described various configuration objects for all kinds of axes `react-charts` currently supports.
+
 ## `AxisOptionsBase`
 
 **Options**
