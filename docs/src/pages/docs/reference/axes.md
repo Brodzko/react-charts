@@ -18,8 +18,10 @@ Below are described various configuration objects for all kinds of axes `react-c
   - Optional
   - Type of element that will represent data on this axis
   - defaults to `line`
-- `showDatumElements: boolean`
+- `showDatumElements: boolean | 'onFocus'`
   - Optional
+  - defaults to `'onFocus'`
+  - set to `false` if you want individual datum points on the chart to be invisible (by default they pop-up on focus)
 - `curve: CurveFactory`
   - Optional
   - TODO

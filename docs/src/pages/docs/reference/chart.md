@@ -50,9 +50,9 @@ function App() {
   - Optional
   - a function that computes CSS properties applied to a datum based on whether or not it is focused
 - `interactionMode:` [`InteractionMode`](helpers#interactionmode)
-  - `TODO`
   - Optional
-  - used in resolving `TooltipOptions`
+  - determines tiling of the chart for resolving any interaction callbacks
+  - use `showVoronoi: true` to see it in action
 - `showVoronoi: boolean`
   - Optional
 - `showDebugAxes: boolean`
@@ -79,10 +79,10 @@ function App() {
   - if passed, the chart is rendered with a dark background
 - `renderSVG: () => React.ReactNode`
   - Optional
-- `primaryCursor: boolean | CursorOptions`
+- `primaryCursor: boolean | `[`CursorOptions`](helpers#cursoroptions)
   - `TODO`
   - Optional
-- `secondaryCursor: boolean | CursorOptions`
+- `secondaryCursor: boolean | `[`CursorOptions`](helpers#cursoroptions)
   - `TODO`
   - Optional
 - `tooltip: boolean | TooltipOptions<TDatum>`
