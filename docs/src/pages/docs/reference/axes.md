@@ -42,6 +42,11 @@ Below are described various configuration objects for all kinds of axes `react-c
 - `tickCount: number`
   - Optional
   - if set, will define number of ticks rendered on this axis, otherwise will be determined automatically by `d3`
+- `shouldNice: boolean`
+  - Optional
+  - defaults to `true`
+  - if `false`, d3 will not perform [nicing](https://github.com/d3/d3-array/blob/v3.0.1/README.md#nice) on the axis
+  - **Note**: Nicing will be disabled if you pass `min`/`max`/`hardMin`/`hardMax` manually
 - `innerBandPadding: number`
   - TODO: shouldn't this be moved to `AxisBandOptions<TDatum>` instead? Same for the next 5
   - Optional
