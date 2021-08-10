@@ -72,8 +72,8 @@ function App() {
   - `TODO`
   - Optional
 - `onClickDatum: (datum: Datum<TDatum> | null, event: React.MouseEvent) => void`
-  - `TODO`
   - Optional
+  - Callback called when clicking on a datum
 - `dark: boolean`
   - Optional
   - if passed, the chart is rendered with a dark background
