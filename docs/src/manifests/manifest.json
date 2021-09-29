@@ -27,6 +27,32 @@
       ]
     },
     {
+      "title": "API Reference",
+      "open": true,
+      "routes": [
+        {
+          "title": "Overview",
+          "path": "/docs/reference/overview",
+          "editUrl": "/docs/reference.overview.md"
+        },
+        {
+          "title": "Chart component",
+          "path": "/docs/reference/chart",
+          "editUrl": "/docs/reference.chart.md"
+        },
+        {
+          "title": "Axes",
+          "path": "/docs/reference/axes",
+          "editUrl": "/docs/reference/axes.md"
+        },
+        {
+          "title": "Helpers",
+          "path": "/docs/reference/helpers",
+          "editUrl": "/docs/reference/helpers.md"
+        }
+      ]
+    },
+    {
       "title": "Examples",
       "open": true,
       "routes": [
